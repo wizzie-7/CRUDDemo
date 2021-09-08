@@ -7,17 +7,17 @@ namespace CRUDDemo
     {
         static void Main(string[] args)
         {
-            Class1 C = new Class1();
-            C.DisplayEmployees();
+            Class1 d = new Class1();
+            d.DisplayEmployees();
             
-            C.AddEmpliyee();
-            C.DisplayEmployees();
+            d.AddEmpliyee();
+            d.DisplayEmployees();
             
-            C.EditEmployee();
-            C.DisplayEmployees();
+            d.EditEmployee();
+            d.DisplayEmployees();
             
-            C.DeleteEmployee();
-            C.DisplayEmployees();
+            d.DeleteEmployee();
+            d.DisplayEmployees();
         }
     }
 }
